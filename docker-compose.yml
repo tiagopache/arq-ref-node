@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  arq-ref-node-p1:
+    image: arq-ref-node-p1
+    build: .
+    environment:
+      NODE_ENV: production
+      DB_USERNAME: admin
+      DB_PASSWORD: p1c4d1nh0
+      DB_NAME: arqref-p1-db
+      DB_SERVERS: db:27017
+    ports:
+      - 3000:3000
