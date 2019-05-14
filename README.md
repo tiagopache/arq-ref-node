@@ -22,7 +22,7 @@ An opinionated boilerplate for Node web APIs focused on separation of concerns a
 
   <dt>Database integration</dt>
   <dd>
-    <a href="https://www.npmjs.com/package/mongoose">Mongoose</a>, an ORM for MongoDB, is already integrated, you just have to set the authentication configurations `config/database.js`</a>.
+    <a href="https://www.npmjs.com/package/mongoose">Mongoose</a>, an ODM for MongoDB, is already integrated, you just have to set the authentication configurations `config/database.js`</a>.
   </dd>
 
   <dt>Prepared for testing</dt>
@@ -55,7 +55,7 @@ An opinionated boilerplate for Node web APIs focused on separation of concerns a
 
 _Notice that the boilerplate comes with a small application for user management already, you can delete it with a npm script after you understand how the boilerplate works but please do the quick start first!_ 😊
 
-1. Clone the repository with `git clone <githubplace>`
+1. Clone the repository with `git clone git@github.com:tiagopache/arq-ref-node.git`
 2. Setup the database on `config/database.js` (there's an example file there to be used with MongoDB 😉 )
 
 ### Running on native machine
