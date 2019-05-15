@@ -3,7 +3,8 @@ const logPath = path.join(__dirname, '../../logs/development.log');
 
 module.exports = {
     web: {
-        port: process.env.PORT || 3000
+        port: process.env.PORT || 3000,
+        ssl: require('../ssl')
     },
     logging: {
         appenders: {

@@ -1,5 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
+const spdy = require('spdy');
 
 class Server {
     constructor({ config, router, logger }) {
@@ -14,9 +15,9 @@ class Server {
 
     start() {
         return new Promise((resolve) => {
-            const http = this.express
+            const server = spdy.createServer(this.config.web.ssl, this.express)
                 .listen(this.config.web.port, () => {
-                    const { port } = http.address();
+                    const { port } = server.address();
                     this.logger.info(`[p ${process.pid}] Listening at port ${port}`);
                     resolve();
                 });

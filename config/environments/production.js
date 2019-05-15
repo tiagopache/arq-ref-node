@@ -1,6 +1,7 @@
 module.exports = {
     web: {
-        port: process.env.PORT
+        port: process.env.PORT,
+        ssl: require('../ssl')
     },
     logging: {
         appenders: {

@@ -1,5 +1,7 @@
 module.exports = {
-    web: {},
+    web: {
+        ssl: require('../ssl')
+    },
     logging: {
         appenders: {
             out: { type: 'console' }
