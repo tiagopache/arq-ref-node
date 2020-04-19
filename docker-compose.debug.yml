@@ -31,7 +31,7 @@ services:
       NODE_ENV: development
       DB_USERNAME: admin
       DB_PASSWORD: p1c4d1nh0
-      DB_NAME: arqref-p1-db
+      DB_NAME: arqref-p1-db-devonly
       DB_SERVERS: db:27017
     ports:
       - 3000:3000

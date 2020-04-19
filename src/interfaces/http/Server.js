@@ -1,5 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
+const nocache = require('nocache');
 const spdy = require('spdy');
 
 class Server {
@@ -9,7 +10,7 @@ class Server {
         this.express = express();
 
         this.express.use(helmet());
-        this.express.use(helmet.noCache());
+        this.express.use(nocache());
         this.express.use(router);
     }
 

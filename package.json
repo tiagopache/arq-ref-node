@@ -4,7 +4,7 @@
   "description": "A microservice model to use web APIs with Node",
   "main": "index.js",
   "engines": {
-    "node": ">=10.13.x <11.0.0"
+    "node": ">=10.13.x <13.0.0"
   },
   "scripts": {
     "start": "node index.js",
@@ -41,15 +41,16 @@
     "del": "^3.0.0",
     "dotenv": "^6.2.0",
     "eslint": "^5.16.0",
-    "express": "^4.16.4",
-    "express-status-monitor": "^1.2.5",
-    "helmet": "^3.16.0",
+    "express": "^4.17.1",
+    "express-status-monitor": "^1.2.11",
+    "helmet": "^3.22.0",
     "http-status": "^1.3.2",
     "log4js": "^4.1.0",
     "method-override": "^3.0.0",
     "mongo-seeding": "^3.1.0",
     "mongoose": "^5.5.3",
     "morgan": "^1.9.1",
+    "nocache": "^2.1.0",
     "request": "^2.88.0",
     "spdy": "^4.0.0",
     "structure": "^1.4.0",
@@ -66,10 +67,10 @@
     "mocha": "^6.1.4",
     "mocha-junit-reporter": "^1.22.0",
     "mocha-multi-reporters": "^1.1.7",
-    "nodemon": "^1.18.11",
+    "nodemon": "^2.0.3",
     "nyc": "^14.0.0",
     "replace-in-file": "^3.4.4",
-    "snyk": "^1.153.0",
+    "snyk": "^1.306.0",
     "supertest": "^3.4.2"
   }
 }

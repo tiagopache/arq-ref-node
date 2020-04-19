@@ -33,13 +33,13 @@ module.exports = ({ config, containerMiddleware, loggerMiddleware, errorHandler,
                 statusCodes: true
             },
             healthChecks: [{
-                protocol: 'http',
-                host: 'localhost',
+                protocol: 'https',
+                host: '127.0.0.1',
                 path: '/api/users',
                 port: config.web.port
             }, {
-                protocol: 'http',
-                host: 'localhost',
+                protocol: 'https',
+                host: '127.0.0.1',
                 path: '/api/users/0',
                 port: config.web.port
             }],
