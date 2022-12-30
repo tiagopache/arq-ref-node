@@ -64,7 +64,7 @@
     "dirty-chai": "^2.0.1",
     "factory-girl": "^5.0.4",
     "listr": "^0.14.3",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "mocha-junit-reporter": "^1.22.0",
     "mocha-multi-reporters": "^1.1.7",
     "nodemon": "^2.0.3",
